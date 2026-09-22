@@ -1,6 +1,6 @@
 name:continuous Integration
 on:
-  push:
+push:
     branches:["main"]
 jobs:
  build:
