@@ -1,12 +1,12 @@
 name:continuous Integration
 on:
-push:
+  push:
     branches:["main"]
-jobs:
- build:
- runs-on: ubuntu-latest
+ jobs:
+   build:
+   runs-on: ubuntu-latest
   steps:
      -name:Checkout repository
       uses:actions/checkout@v4
       -name:CI check
-      run: echo "Continuous Integration Scuccesful"
+    run: echo "Continuous Integration Scuccesful"
